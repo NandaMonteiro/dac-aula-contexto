@@ -5,5 +5,5 @@ Há dois projetos: uma aplicação web responsável por cadastrar uma entidade P
 
 #Instalação
 
-Para executar este exemplo é necessário criar no Derby um banco de dados com nome, login e senha:dac-aula-contexto.
+Para executar este exemplo é necessário criar no Derby um banco de dados com nome: *dac-aula-contexto*, login e senha: *contexto*.
 
