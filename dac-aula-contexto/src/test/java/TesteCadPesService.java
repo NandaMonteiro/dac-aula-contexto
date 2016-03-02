@@ -5,6 +5,7 @@
  */
 
 import ifpb.dac.contexto.pessoa.CadastroPessoaService;
+import ifpb.dac.contexto.pessoa.ReposistorioDePessoa;
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Before;
@@ -18,14 +19,16 @@ import static org.junit.Assert.*;
  */
 public class TesteCadPesService {
     
-    CadastroPessoaService cadastroPessoaService;
+    private CadastroPessoaService cadastroPessoaService;
+    private ReposistorioDePessoa reposistorioDePessoa;
     
     public TesteCadPesService() {
     }
     
     @Test
     public void testSalvar(){
-        System.out.println("h");
+        
+        reposistorioDePessoa repositorio = mock.
         
     
        
