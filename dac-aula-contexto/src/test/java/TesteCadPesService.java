@@ -23,6 +23,13 @@ public class TesteCadPesService {
     public TesteCadPesService() {
     }
     
+    @Test
+    public void testSalvar(){
+        System.out.println("h");
+        
+    
+       
+    }
     
 
 }
