@@ -26,10 +26,11 @@ public class ReposistorioDePessoa {
         this.em = em;
     }
 
-    public void salvar(Pessoa pessoa) {
+    public boolean salvar(Pessoa pessoa) {
         em.getTransaction().begin();
         em.persist(pessoa);
         em.getTransaction().commit();
+        return true;
 
     }
 
@@ -38,10 +39,11 @@ public class ReposistorioDePessoa {
     }
 
     /* Usado para analisar o contexto de persistência */
-    public void excluir(Pessoa pessoa) {
+    public boolean excluir(Pessoa pessoa) {
         em.getTransaction().begin();
 //        em.remove(em.merge(pessoa));
         em.remove(pessoa);
         em.getTransaction().commit();
+        return true;
     }
 }
